@@ -1,4 +1,8 @@
 const btn = document.querySelector("button")
-btn.addEventListener("click",function() {
+const addElement = function () {
     console.log("click")
-})
+}
+
+
+
+btn.addEventListener("click",addElement)
