@@ -10,5 +10,12 @@ div {
     float: left;
     color :white;
     text-align: center;
-    
+    line-height: 30px;
 }
+.circle {
+    background-color: aquamarine;
+    border: 2px solid black;
+    border-radius: 50%;
+    color: black;
+}
+   
