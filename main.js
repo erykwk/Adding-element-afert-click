@@ -1,8 +1,9 @@
 const btn = document.querySelector("button")
 const addElement = function () {
-    
     const newDiv = document.createElement("div")
-    console.log(newDiv)
+    document.body.appendChild(newDiv)
+    // console.log(newDiv)
+
 }
 
 
